@@ -1,9 +1,8 @@
 import axios from 'axios'
-import config from './config/index'
 
 // BASE URL TO MAKE REQUESTS TO THE MOVIE DATABASE
 const instance = axios.create({
-    baseURL: config.baseURL
+    baseURL: 'https://api.themoviedb.org/3'
 })
 
 export default instance;

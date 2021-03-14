@@ -1,6 +1,4 @@
-const { config } = require('./config/index');
-
-const apiKey = config.apiKey;
+const apiKey = 'c121868d8c4caf942c8541fb65b5ecb8';
 
 const requests = {
     fetchTrending: `/trending/all/week?api_key=${apiKey}&language=en-US`,
